@@ -17,7 +17,7 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  font-family: var(--main-font), sans-serif;
+  font-family: var(--main-font);
   color: var(--accent-color);
   font-size: 18px;
   font-variation-settings: "wght" var(--main-text-weight);
@@ -43,7 +43,7 @@
 }
 
 .header_link {
-  font-family: var(--accent-font), fantasy;
+  font-family: var(--accent-font);
   font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
   color: var(--accent-color);
   padding-block-start: clamp(7.5rem, 7.1479rem + 1.5023vw, 8.5rem);
@@ -51,13 +51,13 @@
 }
 
 .header_title {
-  font-family: var(--accent-font), fantasy;
+  font-family: var(--accent-font);
   font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
   color: var(--accent-color);
 }
 
 .header__theme-menu {
-  font-family: var(--accent-font), fantasy;
+  font-family: var(--accent-font);
   font-size: 14px;
   line-height: 1;
   color: var(--accent-color);
@@ -152,7 +152,7 @@
   right: clamp(0.6875rem, 0.3794rem + 1.3146vw, 1.5625rem);
   opacity: 0.5;
   mix-blend-mode: hard-light;
-  font-family: var(--accent-font), fantasy;
+  font-family: var(--accent-font);
   font-size: 14px;
   text-transform: uppercase;
   text-shadow: 0 0 2px var(--shadow-color);
@@ -251,7 +251,7 @@
 }
 
 .button__text {
-  font-family: var(--accent-font), fantasy;
+  font-family: var(--accent-font);
   font-size: 14px;
   line-height: 90%;
   font-style: normal;
@@ -326,7 +326,7 @@ dialog::backdrop {
 }
 
 .dialog_content p {
-  font-family: var(--accent-font), fantasy;
+  font-family: var(--accent-font);
   font-size: 14px;
   color: var(--accent-color);
   line-height: 1.5;
