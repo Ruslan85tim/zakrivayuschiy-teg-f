@@ -53,7 +53,7 @@
 }
 
 .like-icon.is-liked .core {
-  transition: fill 0.3s 0.03s linear;
+  transition: fill 0.3s linear;
   fill: var(--heart-fill-color);
 }
 

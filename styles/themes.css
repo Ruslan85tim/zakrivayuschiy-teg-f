@@ -5,8 +5,8 @@
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
 :root.theme-light {
-  --main-font: "Inter-Variable";
-  --accent-font: "PressStart2P-Regular";
+  --main-font: "Inter-Variable", sans-serif;
+  --accent-font: "PressStart2P", fantasy;
   --main-text-weight: 400;
   --title-text-weight: 700;
   /*--bg-image: url(../images/background-light.png);*/
@@ -25,8 +25,8 @@
 }
 
 :root.theme-dark {
-  --main-font: "Inter-Variable";
-  --accent-font: "PressStart2P-Regular";
+  --main-font: "Inter-Variable", sans-serif;
+  --accent-font: "PressStart2P", fantasy;
   --main-text-weight: 465;
   --title-text-weight: 785;
   /*--bg-image: url(../images/background-dark.png);*/
@@ -46,8 +46,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --main-font: "Inter-Variable";
-    --accent-font: "PressStart2P-Regular";
+    --main-font: "Inter-Variable", sans-serif;
+    --accent-font: "PressStart2P", fantasy;
     --main-text-weight: 465;
     --title-text-weight: 785;
     /*--bg-image: url(../images/background-dark.png);*/
